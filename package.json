@@ -1,0 +1,27 @@
+{
+  "name": "Serverless-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutluokuducu/Serverless-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutluokuducu/Serverless-Demo/issues"
+  },
+  "homepage": "https://github.com/mutluokuducu/Serverless-Demo#readme",
+  "dependencies": {
+    "@middy/core": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "aws-sdk": "^2.1120.0",
+    "http-errors": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
